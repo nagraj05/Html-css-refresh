@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: blue;
+    overflow: hidden;
+}
+.wrapper{
+    background-color: white;
+    max-width: 405px;
+    margin: 130px auto;
+    border-radius: 7px;
+    
+}
+.name{
+    
+    padding: 10px 140px;
+}
+.input{
+    height: 51px;
+    padding: 0 25px;
+}
+.input input{
+    height: 100%;
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 1 solid grey;
+}
